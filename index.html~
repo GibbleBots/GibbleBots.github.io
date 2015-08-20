@@ -11,40 +11,52 @@
   <body>
 
    <div class="hero-area">
-<div class="row">
+<div class="row search">
 <div class="large-12 columns" align="center">
 <div class="hero-headline">
-<h1>UX & Front-end Development</h1>
+<h1>I believe that process and analysis are the best ways to drive a modern marketing program.</h1>
 <p class="lead" style="color">Your start-up's website relys on a smooth roll-out to succeed.</p>
+<!--
+<div class="row collapse">-->
+      <!-- Search field -->
+      <div class="small-6 large-6 large-centered  columns panel" style="padding:20px;">
+<!--  <div class=" keyword">
+          <a href="#" data-dropdown="drop3">
+            Keyword 
+            <div class="arrow-down"></div>
+          </a>
+          <ul id="drop3" class="f-dropdown content" data-dropdown-content style="position: absolute;  left: -99999px;">
+            <li><a href="#"> Keyword</a></li>
+            <li><a href="#"> Keyword</a></li>
+            <li><a href="#">Keyword</a></li>
+          </ul>
+        </div>
+        <i class="fi-magnifying-glass"></i>
+        <input type="text" class="search-field" placeholder="your search ">
+      </div>
+    </div>-->
+  </div>
 </div>
 </div>
-</div>
-<div class="row">
-<div class="large-9 large-centered panel columns" align="center">
-<form>
-<div class="small-4 columns">
-<input type="text" placeholder="Enter Zip Code">
-</div>
-<div class="small-4 columns">
-<input type="text" placeholder="Enter a Disipline">
-</div>
-<div class="small-4 columns">
-<a class="button success expanded">Find a teacher</a>
-</div>
-</form>
-<hr/>
-<h2>One of our teachers</h2>
-<div class="flex-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_1ZC2LAn0tI" frameborder="0" allowfullscreen></iframe></div>
-<hr/>
 
-<div class="small-6 columns">
-<h4>Features</h4>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+  
+
+
+<div class="row">
+<div class="small-4 columns">
+<h2>Templates</h2>
+<p>See my collection of landing page and website templates.</p>
+<ul><li>Knvrtr</li></ul>
 </div>
-<div class="small-6 columns">
-<h4>Features</h4>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+<div class="small-4 columns">
+<h2>Themes</h2>
+<p>See my collection of WordPress, Shopify and Ghost themes.</p>
+<ul><li>Hocus Pocus</li></ul>
+</div>
+<div class="small-4 columns">
+<h2>Plugins</h2>
+<p>See my collection of plugins that I've contributed to.</p>
+<ul><li><a href="https://github.com/GibbleBots/braintree-woocommerce-gateway">WooCommerce x Braintree</a></li></ul>
 </div>
 </div>
    </div> 
