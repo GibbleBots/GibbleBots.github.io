@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Typed.js - Type your heart out</title>
+    <title>GibbleBots :: Projects, Resources, and References</title>
     <!-- Get jQuery -->
 <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/music-school.css" />
@@ -68,6 +68,7 @@
     </style>
 </head>
 <body>
+<header>
  <div class="hero-area">
 <div class="row">
 <div class="large-12 columns" align="center">
@@ -75,9 +76,17 @@
    
            <div style="display:inline;text-align:left;"><h3 style="color:white;font-size:3rem;">I belive that the best way to drive a modern marketing campaign is through <span id="typed" style="white-space:pre;"></span></h3></div>
 </div>
+<ul class="subnav hide-for-small-only">
+<li><a href="#">Take Action!</a></li>
+<li><a href="#" class="is-active">Carpe Diem!</a></li>
+<li><a  href="#">Just do it!</a></li>
+</ul>
 </div>
- </div>     
+
+ </div>
+     
 </div>
+</header>
 <div style="padding: 15px 0 0 0;">
 <div class="row">
 <div class="small-4 columns">
@@ -93,10 +102,46 @@
 <p>See my collection of WordPress, Shopify and Ghost themes.</p>
 <ul><li>Hocus Pocus</li></ul>
 </div>
-<div class="small-4 columns">
-<h2>Plugins</h2>
-<p>See my collection of plugins that I've contributed to.</p>
-<ul><li><a href="https://github.com/GibbleBots/braintree-woocommerce-gateway">WooCommerce x Braintree</a></li></ul>
+<div class="small-4 columns panel">
+<h3 class="contact-title" align="center">Let's Work Together!</h3>
+<hr/>
+
+<form class="form-horizontal" method="post" role="form" action="order.php" style="margin-top:10px;" name="sentMessage" id="contactForm" >
+   <div class="form-group">
+      <div class="small-12">
+         <input type="text" class="form-control" id="name" name="name"
+            placeholder="Full Name">
+      </div>
+   </div>
+   <div class="form-group">
+      <div class="small-12">
+         <input type="text" class="form-control" id="company" name="company"
+            placeholder="Company">
+      </div>
+   </div>
+   <div class="form-group">
+      <div class="small-12">
+         <input type="email" class="form-control" id="email" name="email"
+            placeholder="Email" required
+ 			   		   data-validation-required-message="Please enter your email">
+      </div>
+   </div>
+   <div class="form-group">
+      <div class="small-12">
+         <input type="text" class="form-control" id="phone" name="phone"
+            placeholder="Phone">
+      </div>
+   </div>
+   
+   <div class="form-group">
+      <div class="small-12">
+         <button type="submit" class="btn success expand btn-block">Go! <i class="fa fa-paper-plane"></i></button>
+     <br/>
+	<p align="center"><i class="fa fa-lock"></i><small> I respect your privacy and promise not to sell your information to 3rd parties</small></p>
+	</div>
+	 </div>
+   </div>
+</form>
 </div>
 </div>
 </div>
