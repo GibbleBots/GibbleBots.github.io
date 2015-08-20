@@ -63,7 +63,7 @@ INTERNATIONAL: 555.555.5555<br/>
 <div class="row" padding="25px 0 0 0">
 <div class="large-6 columns"><h1 style="color:white;">Motivational Speaking</h1><p class="lead">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. </p><a href="#" class="button radius secondary">Learn More</a>
   <a href="#" class="button radius">Get Motivated!</a><br/><div>
-  <img src="<img src="http://placehold.it/100x100" align="left" style="margin:10px;"><p><i class="fa fa-quote-left fa-2x"></i>
+  <img src="<img src="http://placehold.it/350x150" align="left" style="margin:10px;"><p><i class="fa fa-quote-left fa-2x"></i>
  He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p></div> </div>
 <div class="large-4 offset-2 columns panel" style="margin:25px 0 0 0;">
 <form class="form-horizontal" method="post" role="form" action="order.php" name="sentMessage" id="contactForm" >
