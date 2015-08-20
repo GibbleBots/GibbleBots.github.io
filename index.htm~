@@ -11,7 +11,7 @@
     <script>
     $(function(){
         $("#typed").typed({
-            strings: ["analysis.", "process.", "psychology.", "people."],
+            strings: ["Process", "Analysis.", "Psychology.", "People."],
             typeSpeed: 10,
             backDelay: 500,
             loop: false,
@@ -73,7 +73,7 @@
 <div class="large-12 columns" align="center">
 <div class="hero-headline">
    
-           <div style="display:inline;text-align:left;"><h3 style="color:white;font-size:3rem;">I belive that the best way to drive a modern marketing campaign is through <span id="typed" style="white-space:pre;"></span></h3></div>
+           <div style="display:inline;"><h3 style="color:white;font-size:3rem;">I belive that the best way to drive a modern marketing campaign is though <span id="typed" style="white-space:pre;"></span></h3></div>
 </div>
 </div>
  </div>     
@@ -81,12 +81,9 @@
 <div style="padding: 15px 0 0 0;">
 <div class="row">
 <div class="small-4 columns">
-<h2>Template</h2>
+<h2>Templates</h2>
 <p>See my collection of landing page and website templates.</p>
-<h3>Landing Pages</h3>
 <ul><li>Knvrtr</li></ul>
-<h3>HTML5 Sites</h3>
-<ul><li>Krdl</li></ul>
 </div>
 <div class="small-4 columns">
 <h2>Themes</h2>

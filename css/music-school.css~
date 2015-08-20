@@ -92,7 +92,7 @@ max-height:400px;
 }
 
 .hero-headline {
-padding-bottom:50px;
+padding-bottom:55px;
 color:#fff;
 }
 .menu {
