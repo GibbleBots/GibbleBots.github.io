@@ -3740,7 +3740,7 @@ font-size:1rem;
 
 h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+font-family: 'Maven Pro', sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.4;
@@ -3753,7 +3753,7 @@ h2, h3, h4, h5, h6 {
     line-height: 0; }
 
 h1 {
-  font-size: 2.125rem; }
+  font-size: 1.75rem; }
 
 h2 {
   font-size: 1.6875rem; }

@@ -14,7 +14,7 @@
         $("#typed").typed({
             strings: ["analysis.", "process.", "psychology.", "people."],
             typeSpeed: 10,
-            backDelay: 500,
+            backDelay: 2000,
             loop: false,
             contentType: 'html', // or text
             // defaults to false for infinite loop
@@ -75,12 +75,12 @@
 <div class="large-12 columns" align="center">
 <div class="hero-headline">
    
-           <div style="display:inline;text-align:left;"><h3 style="color:white;font-size:3rem;">I belive that the best way to drive a modern marketing campaign is through <span id="typed" style="white-space:pre;"></span></h3></div>
+           <div style="display:inline;text-align:left;"><h3 style="color:white;font-size:2.7rem;">I believe that the best way to drive a modern marketing campaign is through <span id="typed" style="white-space:pre;"></span></h3></div>
 </div>
-<ul class="subnav hide-for-small-only">
-<li><a href="#">Take Action!</a></li>
-<li><a href="#" class="is-active">Carpe Diem!</a></li>
-<li><a  href="#">Just do it!</a></li>
+<ul class="subnav hide-for-small-only tabs" role="tablist" data-tab data-options="deep_linking:true">
+<li role="presentation"><a href="#panel1" class="is-active">Landing Pages/Templates</a></li>
+<li role="presentation"><a href="#panel2">Themes</a></li>
+<li role="presentation"><a href="#panel3">Plugins</a></li>
 </ul>
 </div>
 
@@ -88,64 +88,45 @@
      
 </div>
 </header>
+<article>
+
 <div style="padding: 15px 0 0 0;">
 <div class="row">
-<div class="small-4 columns">
-<h2>Template</h2>
-<p>See my collection of landing page and website templates.</p>
-<h3>Landing Pages</h3>
-<ul><li>Knvrtr</li></ul>
-<h3>HTML5 Sites</h3>
-<ul><li><a href="/landing-pages/motivationaal/">Motivationaal</a></li></ul>
-</div>
-<div class="small-4 columns">
-<h2>Themes</h2>
-<p>See my collection of WordPress, Shopify and Ghost themes.</p>
-<ul><li>Hocus Pocus</li></ul>
-</div>
-<div class="small-4 columns panel">
-<h3 class="contact-title" align="center">Let's Work Together!</h3>
-<hr/>
+<div class="large-8 columns">
+<div class="tabs-content">
+  <div class="content active" id="panel1" role="tabpanel" aria-hidden="false">
+<h2>Motivationaal</h2>
+    <p>This is the first panel of the basic tab example. You can place all sorts of content here including a grid.</p>
+<a href="landing-pages/motivationaal/" class="button secondary">Live Preview</a> <a class="button primary">Download from Repo</a>
+<h2>Konvrtr</h2>
+    <p>This is the first panel of the basic tab example. You can place all sorts of content here including a grid.</p>
+<a href="landing-pages/motivationaal/" class="button secondary">Live Preview</a> <a class="button primary">Download from Repo</a>
+  </div>
+  <div class="content" id="panel2" role="tabpanel" aria-hidden="true">
+    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+  </div>
+  <div class="content" id="panel3" role="tabpanel" aria-hidden="true">
+    <p>This is the third panel of the basic tab example. This is the third panel of the basic tab example.</p>
+  </div>
 
-<form class="form-horizontal" method="post" role="form" action="order.php" style="margin-top:10px;" name="sentMessage" id="contactForm" >
-   <div class="form-group">
-      <div class="small-12">
-         <input type="text" class="form-control" id="name" name="name"
-            placeholder="Full Name">
-      </div>
-   </div>
-   <div class="form-group">
-      <div class="small-12">
-         <input type="text" class="form-control" id="company" name="company"
-            placeholder="Company">
-      </div>
-   </div>
-   <div class="form-group">
-      <div class="small-12">
-         <input type="email" class="form-control" id="email" name="email"
-            placeholder="Email" required
- 			   		   data-validation-required-message="Please enter your email">
-      </div>
-   </div>
-   <div class="form-group">
-      <div class="small-12">
-         <input type="text" class="form-control" id="phone" name="phone"
-            placeholder="Phone">
-      </div>
-   </div>
-   
-   <div class="form-group">
-      <div class="small-12">
-         <button type="submit" class="btn success expand btn-block">Go! <i class="fa fa-paper-plane"></i></button>
-     <br/>
-	<p align="center"><i class="fa fa-lock"></i><small> I respect your privacy and promise not to sell your information to 3rd parties</small></p>
-	</div>
-	 </div>
-   </div>
-</form>
 </div>
 </div>
+ <div class="large-4 columns panel">
+<h4>Relevant University Coursework</h4><hr/>
+<p>Digital Media 1, 2, and 3 (capstone)<br/>
+Introduction to Computer Science<br/>
+Meaning of Information Technology<br/>
+Computer Graphic Programing<br/>
+Game Design<br/>
+Projects<br/>
+Human Factors in Design<br/>
+Color Theory<br/>
+General Psychology<br/>
+</p>
+</div>
+
 </div>
    </div> 
+</article>
 </body>
 </html>
