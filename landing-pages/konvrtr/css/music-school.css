@@ -1,5 +1,19 @@
+.trust-bar {
+min-height:65px;
+padding-top:10px;
+padding-bottom:10px;
+background-color:#f3f3f3;
+color:black;
+}
+
+.bottom-area {
+padding-top:px;
+background:#289852;
+min-height:400px;
+}
+
 .hero-area {
-padding-top:100px;
+padding-top:px;
 background:#111D29;
 min-height:350px;
 max-height:400px;
@@ -9,7 +23,8 @@ max-height:400px;
 }
 
 .hero-headline {
-padding-bottom:100px;
+margin-top:50px;
+padding-bottom:25px;
 color:#fff;
 }
 .menu {

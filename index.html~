@@ -96,11 +96,11 @@
 <div class="tabs-content">
   <div class="content active" id="panel1" role="tabpanel" aria-hidden="false">
 <h2>Motivationaal</h2>
-    <p>This is the first panel of the basic tab example. You can place all sorts of content here including a grid.</p>
+    <p>Motivationaal was designed as a response to the need of a clean, simple website for a motivational speaker that I work for. This is the a deviation of the client's new site.</p>
 <a href="landing-pages/motivationaal/" class="button">Live Preview</a> <a class="button  secondary primary">Download from Repo</a>
 <h2>Konvrtr</h2>
     <p>This is the first panel of the basic tab example. You can place all sorts of content here including a grid.</p>
-<a href="landing-pages/motivationaal/" class="button">Live Preview</a> <a class="button  secondary primary">Download from Repo</a>
+<a href="landing-pages/konvrtr/" class="button">Live Preview</a> <a class="button  secondary primary">Download from Repo</a>
   </div>
   <div class="content" id="panel2" role="tabpanel" aria-hidden="true">
     <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
@@ -117,6 +117,7 @@
 Introduction to Computer Science<br/>
 Meaning of Information Technology<br/>
 Computer Graphic Programing<br/>
+Digital Presentation/Portfolio<br/>
 Game Design<br/>
 Projects<br/>
 Human Factors in Design<br/>
