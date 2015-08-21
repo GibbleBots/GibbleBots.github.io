@@ -1,14 +1,14 @@
 .trust-bar {
 min-height:65px;
-margin-top:10px;
-margin-bottom:10px;
+padding-top:10px;
+padding-bottom:10px;
 background-color:#f3f3f3;
 color:black;
 }
 
 .bottom-area {
-padding-top:px;
-background:#289852;
+padding-top:15px;
+background:#CCD1EF;
 min-height:400px;
 }
 
