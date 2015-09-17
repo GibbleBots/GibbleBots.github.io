@@ -47,7 +47,8 @@ font-family: 'Oswald', sans-serif;
       border-color: transparent #adb2bd transparent transparent;
       border-color: rgba(255, 255, 255, 0) #adb2bd rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
   .callout-card.info {
-    border-color: #89c4f4; }
+    border-color: #fff;
+	}
     .callout-card.info .card-label {
       border-color: transparent #89c4f4 transparent transparent;
       border-color: rgba(255, 255, 255, 0) #89c4f4 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); }
@@ -202,5 +203,46 @@ html, body {
 	 	 /*end Hover Animated Service Block*/
 
 	 
+/*footer*/
+	 .full-width {
+  max-width: 1400px;
+}
 
+.footer {
+  background-color: #00838F;
+  padding: 2rem 4rem;
+  text-align: center;
+  color: #fff;
+}
+.footer i {
+  font-size: 100px;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  margin-bottom: 10px;
+}
+.footer p, .footer a {
+  font-weight: 300;
+  font-size: .8em;
+  color: #fff;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .footer .columns:nth-child(n+2) {
+    border-left: 1px solid #b3b3b3;
+    min-height: 280px;
+  }
+}
+.footer-links {
+  list-style-type: none;
+}
+.footer-links li {
+  margin-top: .5em;
+}
+/* end footer*/
 
