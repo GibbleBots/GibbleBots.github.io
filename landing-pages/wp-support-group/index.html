@@ -14,53 +14,78 @@
   </head>
   <body>
     
-	<nav class="top-bar" data-topbar role="navigation">
-  <ul class="title-area">
-    <li class="name">
-      <h1><a href="#">WP Support Group</a></h1>
-    </li>
-   
-     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+	<nav class="menu">
+  <h1 class="name"><i class="fi-widget"></i> WP Support Group</a></h1>
+  <ul class="inline-list">
+    <li><a href="#">Home</a></li>
+    <li class="active"><a href="#">Blog</a></li>
+    <li><a href="#">Pricing</a></li>
   </ul>
-
-  <section class="top-bar-section">
-    <!-- Right Nav Section -->
-    <ul class="right">
-      <li><a href="#">Button</a></li>
-      <li class="has-dropdown">
-        <a href="#">Dropdown</a>
-        <ul class="dropdown">
-          <li><a href="#">link</a></li>
-          <li><a href="#">link</a></li>
-        </ul>
-      </li>
-    </ul>
-
-    <!-- Left Nav Section -->
-    <ul class="left">
-      
-    </ul>
-  </section>
+  <ul class="inline-list hide-for-small-only account-action">
+    <li><a href="#" data-reveal-id="myModal">Login</a></li>
+    <li class=""><a class="signup" href="#" data-reveal-id="myModal">Signup</a></li>
+  </ul>
+  <a class="account hide-for-medium-up" href="#" data-reveal-id="myModal"><i class="fi-unlock"></i></a>
 </nav>
+
+<!-- modal content -->
+
+<div id="myModal" class="reveal-modal" data-reveal aria-labelledby="login or sign up" aria-hidden="true" role="dialog">
+  <div class="row">
+    <div class="large-6 columns auth-plain">
+      <div class="signup-panel left-solid">
+        <p class="welcome">Registered Users</p>
+        <form>
+          <div class="row collapse">
+            <div class="small-2  columns">
+              <span class="prefix"><i class="fi-torso-female"></i></span>
+            </div>
+            <div class="small-10  columns">
+              <input type="text" placeholder="username">
+            </div>
+          </div>
+          <div class="row collapse">
+            <div class="small-2 columns ">
+              <span class="prefix"><i class="fi-lock"></i></span>
+            </div>
+            <div class="small-10 columns ">
+              <input type="text" placeholder="password">
+            </div>
+          </div>
+        </form>
+        <a href="#" class="button ">Log In </a>
+      </div>
+    </div>
+
+    <div class="large-6 columns auth-plain">
+    	<div class="signup-panel newusers">
+    		<p class="welcome"> New User?</p>
+    		<p>By creating an account with us, you will be able to move through the checkout process faster, view and track your orders, and more.</p><br>
+    		<a href="#" class="button ">Sign Up</a></br>
+    	</div>
+    </div>
+
+   </div>
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
 	 
       
 	  <div class="large-12 columns" style="background-color:#006064;min-height:10%;">
 	  <h1 class="tagline">We Support WordPress</h1>
       </div>
-	  <div class="large-8 columns features" style="background-color:#26C6DA;min-height:20%;">
+	  <div class="large-8 columns features" style="background-color:#80DEEA;min-height:20%;">
 	  <br/>
       <div class="medium-4 columns">
         
         <h3><i class="fa fa-reply"></i> Site Restoration</h3>
         <hr>
-        <p>Between the creative, the programming, and the ad buying, rich media campaigns can be complicated. Rest assured knowing your budget is good hands.</p>
+        <p>Whether your site got hacked, or a recent update caused an error, we can can get your site up and running again.</p>
       </div>
       <div class="medium-4 columns">
         
         <h3><i class="fa fa-pencil-square-o"></i> Content Updates</h3>
         <hr>
-        <p>Social meida is such a moving target, that it can be a full-time job staying on top of the latest trends. Luckily for you, we're here to do it for you.</p>
+        <p>Whether it's a small cosmetic update, or a full-on make-over, we can update your site to look and feel the way you want.</p>
       </div>
       <div class="medium-4 columns">
         
@@ -87,13 +112,14 @@
 	   <div class="large-4 columns " style="background-image:url('http://sevenspark.com/wp-content/uploads/2012/04/code.jpg');background-size:cover;background-color:#F44336;min-height:30%;">
 	  
       </div>-->
-	  <div  style="background-color:#E0F7FA;"> 
+	  
+	  <div style="background-color:#FFAB40;min-height:15px;padding:7px;">
+	  </div>
+	  <div style="background-color:#E0F7FA;">
 	  <div class="row">
       <div class="large-8 columns" style="background-color:#E0F7FA;min-height:35%;margin-top:21px;">
-	  <h2>So you came here looking for answers...</h2>
- <p>But left with only questions. How can this be? The paradoxal sludge that is my reality. Ever dwindling in the endless fabric of monotony. In your mind
- you want to believe that subjectivity is meaningless, and it is of course, until it happes to us. The reality of it all causes retreat, apathy, and austerity. 
- This is no way to live. It's no way to die either.</p>
+	  <h2>So you've come looking for answers...</h2>
+ <p>We hope you leave with something that not only satisfies your needs, but leaves with a feeling that can only be described as... pure.</p>
  <p class="lead">So you decide to propegate</p>
  <p>And does that help anyone. Or does it only perpatuate a cycle that be reoccuring since go know when.</p>
  <p>Those fucking purists</p>
@@ -139,6 +165,7 @@
       </div>
 	  </div>
 	  </div>
+	  
 	  <div style="background-color:#FFAB40;min-height:15px;">
 	  </div>
   <!-- Footer -->
