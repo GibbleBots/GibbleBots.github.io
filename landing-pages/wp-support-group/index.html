@@ -22,53 +22,16 @@
     <li><a href="#">Pricing</a></li>
   </ul>
   <ul class="inline-list hide-for-small-only account-action">
-    <li><a href="#" data-reveal-id="myModal">Login</a></li>
-    <li class=""><a class="signup" href="#" data-reveal-id="myModal">Signup</a></li>
+    <li><a href="#" data-reveal-id="myModal2">Login</a></li>
+    <li class=""><a class="signup" href="#" data-reveal-id="myModal3">Signup</a></li>
   </ul>
   <a class="account hide-for-medium-up" href="#" data-reveal-id="myModal"><i class="fi-unlock"></i></a>
 </nav>
 
 <!-- modal content -->
 
-<div id="myModal" class="reveal-modal" data-reveal aria-labelledby="login or sign up" aria-hidden="true" role="dialog">
-  <div class="row">
-    <div class="large-6 columns auth-plain">
-      <div class="signup-panel left-solid">
-        <p class="welcome">Registered Users</p>
-        <form>
-          <div class="row collapse">
-            <div class="small-2  columns">
-              <span class="prefix"><i class="fi-torso-female"></i></span>
-            </div>
-            <div class="small-10  columns">
-              <input type="text" placeholder="username">
-            </div>
-          </div>
-          <div class="row collapse">
-            <div class="small-2 columns ">
-              <span class="prefix"><i class="fi-lock"></i></span>
-            </div>
-            <div class="small-10 columns ">
-              <input type="text" placeholder="password">
-            </div>
-          </div>
-        </form>
-        <a href="#" class="button ">Log In </a>
-      </div>
-    </div>
-
-    <div class="large-6 columns auth-plain">
-    	<div class="signup-panel newusers">
-    		<p class="welcome"> New User?</p>
-    		<p>By creating an account with us, you will be able to move through the checkout process faster, view and track your orders, and more.</p><br>
-    		<a href="#" class="button ">Sign Up</a></br>
-    	</div>
-    </div>
-
-   </div>
-  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-</div>
-	 
+  
+ 
       
 	  <div class="large-12 columns" style="background-color:#006064;min-height:10%;">
 	  <h1 class="tagline">We Support WordPress</h1>
@@ -205,7 +168,7 @@
 <div style="background-color:#006064;min-height:50px;">
 	  </div>
 	  <!--modal window code-->
-	  <div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+	  <div id="myModal2" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
   <h2 id="modalTitle">Awesome. I have it.</h2>
   <p class="lead">Your couch.  It is mine.</p>
   <div class="large-8 columns center">
@@ -222,15 +185,48 @@
 <!--end modal window code-->
 
 <!--modal window code-->
-	  <div id="myModal2" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-  <h2 id="modalTitle">Awesome. I have it.</h2>
-  <p class="lead">Your couch.  It is mine.</p>
+	  <div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  <h2 id="modalTitle">What seems to be the problem?</h2>
+ 
   <div class="large-8 columns center">
-  <input type="text" placeholder="name">
-  <input type="text" placeholder="name">
-  <input type="text" placeholder="name">
-  <textarea placeholder="What can we help you with?"></textarea>
-  <button class="success">Let's hear it!</button>
+<hr/>
+
+<form class="form-horizontal" method="post" role="form" action="contact.php" style="margin-top:10px;" name="sentMessage" id="contactForm" >
+   <div class="form-group">
+      <div class="small-12">
+         <input type="text" class="form-control" id="name" name="name"
+            placeholder="Full Name">
+      </div>
+   </div>
+   <div class="form-group">
+      <div class="small-12">
+         <input type="text" class="form-control" id="company" name="company"
+            placeholder="Website URL">
+      </div>
+   </div>
+   <div class="form-group">
+      <div class="small-12">
+         <input type="email" class="form-control" id="email" name="email"
+            placeholder="Email" required
+ 			   		   data-validation-required-message="Please enter your email">
+      </div>
+   </div>
+   <div class="form-group">
+      <div class="small-12">
+         <input type="text" class="form-control" id="phone" name="phone"
+            placeholder="Phone">
+      </div>
+   </div>
+   
+   <div class="form-group">
+      <div class="small-12">
+         <button type="submit" class="btn success expand btn-block">Lets get started! <i class="fa fa-paper-plane"></i></button>
+     <br/>
+	<p align="center"><i class="fa fa-lock"></i><small> We respect your privacy and promise not to sell your information to 3rd parties</small></p>
+	</div>
+	 </div>
+   </div>
+</form>
   
   
   </div>
